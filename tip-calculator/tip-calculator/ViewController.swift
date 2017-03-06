@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var totalTip: UILabel!
+    
+    @IBOutlet weak var totalPrice: UILabel!
+    
+    @IBOutlet weak var defaultTipPercent: UISegmentedControl!
+    
+    @IBAction func didPressNumber(_ sender: UIButton) {
+        
+    }
+    @IBAction func didPressDelete(_ sender: Any) {
+        
+    }
+    @IBAction func didPressClear(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
